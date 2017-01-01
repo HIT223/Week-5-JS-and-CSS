@@ -8,6 +8,8 @@
 
 /*
 * TASK 1: Copy heading into footer
+*
+* innerHTML
 * https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
 */
 
@@ -15,7 +17,7 @@ var pageTitle = document.getElementById('pageTitle');
 var pageFooter = document.getElementById('pageFooter');
 
 // Add heading content and a space to seperate the text to the footer
-pageFooter.innerHTML += pageFooter.innerHTML + ' ' + pageTitle.innerHTML;
+pageFooter.innerHTML = pageFooter.innerHTML + ' ' + pageTitle.innerHTML;
 /*
 * This can also be written as:
 * pageFooter.innerHTML += ' ' + pageTitle.innerHTML;
