@@ -1,9 +1,8 @@
-.grey_bg{
-	padding-top: 20px;
-	background-color: #aaa;
+.grey_bg {
+  padding-top: 20px;
+  background-color: #aaa;
 }
 
-.found{
-	border: 1px dashed #E53935;
+.found {
+  border: 1px dashed #E53935;
 }
-
